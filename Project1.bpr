@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Project1.exe"/>
+    <OBJFILES value="Project1.obj fTestingTable.obj CCRC32Calculator.obj CFileDataLoader.obj 
+      CRawDataContainer.obj CRawDataItem.obj CRawDataLoader.obj 
+      CVCLFileDataLoader.obj CNamedSetItem.obj CNamedSetsContainer.obj 
+      CCharsSet.obj CCharsSetEvent.obj CFunctionalState.obj 
+      CFiniteStateMachineManager.obj CFrequencyTable.obj CLogicalTextItem.obj 
+      CLogicalTextsContainer.obj CCFDivisionTreeItem.obj CRangeItem.obj 
+      CTextTreeDivisionDescriptor.obj CDataContainer.obj CErrorSpecificators.obj 
+      CStateMachineDescriptor.obj CContainer.obj CCharsSetState.obj 
+      CStateActionMachine.obj CTextStringWrapper.obj UParSentWordFSM.obj 
+      CSyllablesCounter.obj CFleschReadingComfortability.obj 
+      CTextDataProvider.obj CTextDivisionDescriptor.obj CCompositeUnit.obj 
+      CDivisionTreeItem.obj BResoundingItem.obj BRule.obj BCharsFilter.obj 
+      BFilteringCascade.obj BFilteringResult.obj BFilteringScheme.obj URules.obj 
+      BRuleProcessor.obj BRuleInstance.obj BValuesCover.obj BResoundingBatch.obj 
+      BResoundingCover.obj BRuleResoundingItems.obj UCharsValues.obj 
+      CBaseCoverProcessor.obj BRulesProxy.obj CSpecificatorContainer.obj 
+      BRulesContainer.obj fPrimaryTextLoading.obj ATextResoundingAnalyser.obj 
+      TPrimaryProcessThread.obj APage.obj ADocument.obj APagesCompositor.obj 
+      APagesList.obj WGLWindow.obj GLTools\GLInit.obj GLTools\GLStructs.obj 
+      GLTools\GLTypes.obj GLTools\Vector3.obj GLTools\DQuaternion.obj 
+      GLTools\GLModelviewCamera.obj GLTools\GLConstants.obj WGLView.obj 
+      WGLWindowConfigurer.obj WGLViewConfigurer.obj GLTools\GLFont.obj 
+      GLTools\GLText.obj WGLTextPage.obj WGLGlyph.obj WGLTextGlyph.obj 
+      WGLDefaultWndConfigurer.obj WGLDefaultViewConfigurer.obj WGLMapGlyph.obj 
+      TMainUpdateThread.obj WGLMapPage.obj ACoveredPage.obj UConstants.obj 
+      VCLConstants.obj WGLAssonancesPage.obj WGLGlyphs.obj WGLGlyphDrawer.obj 
+      Contorllers\CTextsController.obj fAuthoringAnalyserTable.obj 
+      Forms\fResoundingMapTableOld.obj Views\VVCLView.obj 
+      Views\VVCLViewsContainer.obj Contorllers\CAnalyserControllersFasade.obj 
+      Forms\fAuthorAndTitleForm.obj CTextsListFormatter.obj CTextStringList.obj 
+      CTextInfoStringFormat.obj CTextsInfoStrings.obj Forms\fAnalysisProcess.obj 
+      AuthoringAnalysis\DAuthoringAnalysisReporter.obj UReportFunctionsTypes.obj 
+      AuthoringAnalysis\UAuthoringAnalysisConstants.obj 
+      AuthoringAnalysis\DRangeAdapter.obj 
+      AuthoringAnalysis\DRangeMapsEqualifer.obj 
+      AuthoringAnalysis\DLengthCounter.obj AuthoringAnalysis\DLengthCount.obj 
+      AuthoringAnalysis\CSamplesMatrix.obj AuthoringAnalysis\CHamNeuroSystem.obj 
+      AuthoringAnalysis\CHamNSConnector.obj 
+      AuthoringAnalysis\DFrequencyTablesContainer.obj 
+      AuthoringAnalysis\DSpecifiedFrequencyTable.obj 
+      AuthoringAnalysis\DAuthoringAnalyser.obj CCharsSetModificator.obj 
+      ResoundingAnalysis\CResoundingMapAnalyser.obj 
+      CommonAnalysis\CAnalysisReporter.obj 
+      ResoundingAnalysis\CResoundingAnalysisReporter.obj 
+      CommonAnalysis\CAnalyser.obj CommonAnalysis\DTextConfiguration.obj 
+      CommonAnalysis\DTextsConfigurator.obj 
+      AuthoringAnalysis\DCharFrequencyCalculator.obj 
+      ResoundingAnalysis\UResoundingAnalysisConstants.obj 
+      Forms\fResoundingRulesSelector.obj Forms\fAuthoringAnalysisResults.obj 
+      Views\VResoundingMapView.obj Contorllers\CVCLControllersFasade.obj 
+      Forms\fResoundingMapTable.obj Forms\fAbout.obj"/>
+    <RESFILES value="Project1.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) fTestingTable.dfm fPrimaryTextLoading.dfm 
+      fAuthoringAnalyserTable.dfm Forms\fResoundingMapTableOld.dfm 
+      Forms\fAuthorAndTitleForm.dfm Forms\fAnalysisProcess.dfm 
+      Forms\fResoundingRulesSelector.dfm Forms\fAuthoringAnalysisResults.dfm 
+      Forms\fResoundingMapTable.dfm Forms\fAbout.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclx.lib bcbsmp.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbsmp.lib vclx.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;GLTools;GLTools;GLTools;GLTools;GLTools;GLTools;GLTools;GLTools;GLTools;Contorllers;Forms;Views;Views;Contorllers;Forms;Forms;AuthoringAnalysis;AuthoringAnalysis;AuthoringAnalysis;AuthoringAnalysis;AuthoringAnalysis;AuthoringAnalysis;AuthoringAnalysis;AuthoringAnalysis;AuthoringAnalysis;AuthoringAnalysis;AuthoringAnalysis;AuthoringAnalysis;ResoundingAnalysis;CommonAnalysis;ResoundingAnalysis;CommonAnalysis;CommonAnalysis;CommonAnalysis;AuthoringAnalysis;ResoundingAnalysis;Forms;Forms;Views;Contorllers;Forms;Forms"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT"/>
+    <MAINSOURCE value="Project1.cpp"/>
+    <INCLUDEPATH value="AuthoringAnalysis;ResoundingAnalysis;CommonAnalysis;Forms;Tools;Views;AuthoringAnalyse;Contorllers;GLTools;&quot;E:\Program Files\Borland\CBuilder6\Projects&quot;;&quot;C:\Politen - рабочая копия\Projects\Анализатор 4G - Экспорт репозитория\Analyser4G\trunk&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="AuthoringAnalysis;ResoundingAnalysis;CommonAnalysis;Forms;Tools;Views;AuthoringAnalyse;Contorllers;GLTools;&quot;E:\Program Files\Borland\CBuilder6\Projects&quot;;&quot;C:\Politen - рабочая копия\Projects\Анализатор 4G - Экспорт репозитория\Analyser4G\trunk&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IAuthoringAnalysis -IResoundingAnalysis -ICommonAnalysis -IForms -ITools 
+      -IViews -IAuthoringAnalyse -IContorllers -IGLTools 
+      -I&quot;E:\Program Files\Borland\CBuilder6\Projects&quot; 
+      -I&quot;C:\Politen - рабочая копия\Projects\Анализатор 4G - Экспорт репозитория\Analyser4G\trunk&quot; 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project1.res" FORMNAME="" UNITNAME="Project1.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Project1.cpp" FORMNAME="" UNITNAME="Project1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fTestingTable.cpp" FORMNAME="TestingTable" UNITNAME="fTestingTable" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CCRC32Calculator.cpp" FORMNAME="" UNITNAME="CCRC32Calculator.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CFileDataLoader.cpp" FORMNAME="" UNITNAME="CFileDataLoader.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CRawDataContainer.cpp" FORMNAME="" UNITNAME="CRawDataContainer.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CRawDataItem.cpp" FORMNAME="" UNITNAME="CRawDataItem.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CRawDataLoader.cpp" FORMNAME="" UNITNAME="CRawDataLoader.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CVCLFileDataLoader.cpp" FORMNAME="" UNITNAME="CVCLFileDataLoader.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CNamedSetItem.cpp" FORMNAME="" UNITNAME="CNamedSetItem" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CNamedSetsContainer.cpp" FORMNAME="" UNITNAME="CNamedSetsContainer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CCharsSet.cpp" FORMNAME="" UNITNAME="CCharsSet" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CCharsSetEvent.cpp" FORMNAME="" UNITNAME="CCharsSetEvent" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CFunctionalState.cpp" FORMNAME="" UNITNAME="CFunctionalState" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CFiniteStateMachineManager.cpp" FORMNAME="" UNITNAME="CFiniteStateMachineManager" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CFrequencyTable.cpp" FORMNAME="" UNITNAME="CFrequencyTable" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CLogicalTextItem.cpp" FORMNAME="" UNITNAME="CLogicalTextItem" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CLogicalTextsContainer.cpp" FORMNAME="" UNITNAME="CLogicalTextsContainer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CCFDivisionTreeItem.cpp" FORMNAME="" UNITNAME="CCFDivisionTreeItem" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CRangeItem.cpp" FORMNAME="" UNITNAME="CRangeItem" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CTextTreeDivisionDescriptor.cpp" FORMNAME="" UNITNAME="CTextTreeDivisionDescriptor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CDataContainer.cpp" FORMNAME="" UNITNAME="CDataContainer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CErrorSpecificators.cpp" FORMNAME="" UNITNAME="CErrorSpecificators" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CStateMachineDescriptor.cpp" FORMNAME="" UNITNAME="CStateMachineDescriptor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CContainer.cpp" FORMNAME="" UNITNAME="CContainer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CCharsSetState.cpp" FORMNAME="" UNITNAME="CCharsSetState" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CStateActionMachine.cpp" FORMNAME="" UNITNAME="CStateActionMachine" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CTextStringWrapper.cpp" FORMNAME="" UNITNAME="CTextStringWrapper" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UParSentWordFSM.cpp" FORMNAME="" UNITNAME="UParSentWordFSM" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CSyllablesCounter.cpp" FORMNAME="" UNITNAME="CSyllablesCounter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CFleschReadingComfortability.cpp" FORMNAME="" UNITNAME="CFleschReadingComfortability" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CTextDataProvider.cpp" FORMNAME="" UNITNAME="CTextDataProvider" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CTextDivisionDescriptor.cpp" FORMNAME="" UNITNAME="CTextDivisionDescriptor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CCompositeUnit.cpp" FORMNAME="" UNITNAME="CCompositeUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CDivisionTreeItem.cpp" FORMNAME="" UNITNAME="CDivisionTreeItem" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BResoundingItem.cpp" FORMNAME="" UNITNAME="BResoundingItem" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BRule.cpp" FORMNAME="" UNITNAME="BRule" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BCharsFilter.cpp" FORMNAME="" UNITNAME="BCharsFilter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BFilteringCascade.cpp" FORMNAME="" UNITNAME="BFilteringCascade" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BFilteringResult.cpp" FORMNAME="" UNITNAME="BFilteringResult" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BFilteringScheme.cpp" FORMNAME="" UNITNAME="BFilteringScheme" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="URules.cpp" FORMNAME="" UNITNAME="URules" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BRuleProcessor.cpp" FORMNAME="" UNITNAME="BRuleProcessor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BRuleInstance.cpp" FORMNAME="" UNITNAME="BRuleInstance" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BValuesCover.cpp" FORMNAME="" UNITNAME="BValuesCover" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BResoundingBatch.cpp" FORMNAME="" UNITNAME="BResoundingBatch" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BResoundingCover.cpp" FORMNAME="" UNITNAME="BResoundingCover" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BRuleResoundingItems.cpp" FORMNAME="" UNITNAME="BRuleResoundingItems" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UCharsValues.cpp" FORMNAME="" UNITNAME="UCharsValues" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CBaseCoverProcessor.cpp" FORMNAME="" UNITNAME="CBaseCoverProcessor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BRulesProxy.cpp" FORMNAME="" UNITNAME="BRulesProxy" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CSpecificatorContainer.cpp" FORMNAME="" UNITNAME="CSpecificatorContainer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BRulesContainer.cpp" FORMNAME="" UNITNAME="BRulesContainer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fPrimaryTextLoading.cpp" FORMNAME="PrimaryTextLoading" UNITNAME="fPrimaryTextLoading" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ATextResoundingAnalyser.cpp" FORMNAME="" UNITNAME="ATextResoundingAnalyser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TPrimaryProcessThread.cpp" FORMNAME="" UNITNAME="TPrimaryProcessThread" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="APage.cpp" FORMNAME="" UNITNAME="APage" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ADocument.cpp" FORMNAME="" UNITNAME="ADocument" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="APagesCompositor.cpp" FORMNAME="" UNITNAME="APagesCompositor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="APagesList.cpp" FORMNAME="" UNITNAME="APagesList" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLWindow.cpp" FORMNAME="" UNITNAME="WGLWindow" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GLTools\GLInit.cpp" FORMNAME="" UNITNAME="GLInit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GLTools\GLStructs.cpp" FORMNAME="" UNITNAME="GLStructs.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GLTools\GLTypes.cpp" FORMNAME="" UNITNAME="GLTypes.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GLTools\Vector3.cpp" FORMNAME="" UNITNAME="Vector3" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GLTools\DQuaternion.cpp" FORMNAME="" UNITNAME="DQuaternion" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GLTools\GLModelviewCamera.cpp" FORMNAME="" UNITNAME="GLModelviewCamera" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GLTools\GLConstants.cpp" FORMNAME="" UNITNAME="GLConstants" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLView.cpp" FORMNAME="" UNITNAME="WGLView" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLWindowConfigurer.cpp" FORMNAME="" UNITNAME="WGLWindowConfigurer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLViewConfigurer.cpp" FORMNAME="" UNITNAME="WGLViewConfigurer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GLTools\GLFont.cpp" FORMNAME="" UNITNAME="GLFont" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GLTools\GLText.cpp" FORMNAME="" UNITNAME="GLText" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLTextPage.cpp" FORMNAME="" UNITNAME="WGLTextPage" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLGlyph.cpp" FORMNAME="" UNITNAME="WGLGlyph" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLTextGlyph.cpp" FORMNAME="" UNITNAME="WGLTextGlyph" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLDefaultWndConfigurer.cpp" FORMNAME="" UNITNAME="WGLDefaultWndConfigurer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLDefaultViewConfigurer.cpp" FORMNAME="" UNITNAME="WGLDefaultViewConfigurer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLMapGlyph.cpp" FORMNAME="" UNITNAME="WGLMapGlyph" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TMainUpdateThread.cpp" FORMNAME="" UNITNAME="TMainUpdateThread" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLMapPage.cpp" FORMNAME="" UNITNAME="WGLMapPage" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ACoveredPage.cpp" FORMNAME="" UNITNAME="ACoveredPage" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UConstants.cpp" FORMNAME="" UNITNAME="UConstants" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="VCLConstants.cpp" FORMNAME="" UNITNAME="VCLConstants" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLAssonancesPage.cpp" FORMNAME="" UNITNAME="WGLAssonancesPage" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLGlyphs.cpp" FORMNAME="" UNITNAME="WGLGlyphs" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WGLGlyphDrawer.cpp" FORMNAME="" UNITNAME="WGLGlyphDrawer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Contorllers\CTextsController.cpp" FORMNAME="" UNITNAME="CTextsController" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fAuthoringAnalyserTable.cpp" FORMNAME="AuthoringAnalyserTable" UNITNAME="fAuthoringAnalyserTable" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Forms\fResoundingMapTableOld.cpp" FORMNAME="ResoundingMapTableOld" UNITNAME="fResoundingMapTableOld" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Views\VVCLView.cpp" FORMNAME="" UNITNAME="VVCLView" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Views\VVCLViewsContainer.cpp" FORMNAME="" UNITNAME="VVCLViewsContainer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Contorllers\CAnalyserControllersFasade.cpp" FORMNAME="" UNITNAME="CAnalyserControllersFasade" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Forms\fAuthorAndTitleForm.cpp" FORMNAME="fAuthorAndTitle" UNITNAME="fAuthorAndTitleForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CTextsListFormatter.cpp" FORMNAME="" UNITNAME="CTextsListFormatter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CTextStringList.cpp" FORMNAME="" UNITNAME="CTextStringList" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CTextInfoStringFormat.cpp" FORMNAME="" UNITNAME="CTextInfoStringFormat" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CTextsInfoStrings.cpp" FORMNAME="" UNITNAME="CTextsInfoStrings" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Forms\fAnalysisProcess.cpp" FORMNAME="AnalysisProcess" UNITNAME="fAnalysisProcess" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\DAuthoringAnalysisReporter.cpp" FORMNAME="" UNITNAME="DAuthoringAnalysisReporter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UReportFunctionsTypes.cpp" FORMNAME="" UNITNAME="UReportFunctionsTypes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\UAuthoringAnalysisConstants.cpp" FORMNAME="" UNITNAME="UAuthoringAnalysisConstants" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\DRangeAdapter.cpp" FORMNAME="" UNITNAME="DRangeAdapter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\DRangeMapsEqualifer.cpp" FORMNAME="" UNITNAME="DRangeMapsEqualifer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\DLengthCounter.cpp" FORMNAME="" UNITNAME="DLengthCounter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\DLengthCount.cpp" FORMNAME="" UNITNAME="DLengthCount" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\CSamplesMatrix.cpp" FORMNAME="" UNITNAME="CSamplesMatrix" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\CHamNeuroSystem.cpp" FORMNAME="" UNITNAME="CHamNeuroSystem" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\CHamNSConnector.cpp" FORMNAME="" UNITNAME="CHamNSConnector" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\DFrequencyTablesContainer.cpp" FORMNAME="" UNITNAME="DFrequencyTablesContainer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\DSpecifiedFrequencyTable.cpp" FORMNAME="" UNITNAME="DSpecifiedFrequencyTable" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\DAuthoringAnalyser.cpp" FORMNAME="" UNITNAME="DAuthoringAnalyser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CCharsSetModificator.cpp" FORMNAME="" UNITNAME="CCharsSetModificator" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ResoundingAnalysis\CResoundingMapAnalyser.cpp" FORMNAME="" UNITNAME="CResoundingMapAnalyser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CommonAnalysis\CAnalysisReporter.cpp" FORMNAME="" UNITNAME="CAnalysisReporter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ResoundingAnalysis\CResoundingAnalysisReporter.cpp" FORMNAME="" UNITNAME="CResoundingAnalysisReporter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CommonAnalysis\CAnalyser.cpp" FORMNAME="" UNITNAME="CAnalyser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CommonAnalysis\DTextConfiguration.cpp" FORMNAME="" UNITNAME="DTextConfiguration.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CommonAnalysis\DTextsConfigurator.cpp" FORMNAME="" UNITNAME="DTextsConfigurator.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AuthoringAnalysis\DCharFrequencyCalculator.cpp" FORMNAME="" UNITNAME="DCharFrequencyCalculator" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ResoundingAnalysis\UResoundingAnalysisConstants.cpp" FORMNAME="" UNITNAME="UResoundingAnalysisConstants" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Forms\fResoundingRulesSelector.cpp" FORMNAME="ResoundingRulesSelector" UNITNAME="fResoundingRulesSelector" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Forms\fAuthoringAnalysisResults.cpp" FORMNAME="AuthoringAnalysisResults" UNITNAME="fAuthoringAnalysisResults" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Views\VResoundingMapView.cpp" FORMNAME="" UNITNAME="VResoundingMapView" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Contorllers\CVCLControllersFasade.cpp" FORMNAME="" UNITNAME="CVCLControllersFasade" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Forms\fResoundingMapTable.cpp" FORMNAME="ResoundingMapTable" UNITNAME="fResoundingMapTable" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Forms\fAbout.cpp" FORMNAME="About" UNITNAME="fAbout" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
